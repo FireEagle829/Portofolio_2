@@ -1,0 +1,70 @@
+.fab:hover {
+    color: #646464 !important;
+}
+
+body {
+    padding-bottom: 30px;
+}
+
+.stretch {
+    width: 30%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.home:hover {
+    background-color: #0060df !important;
+}
+
+.skills:hover {
+    background-color: #018101 !important;
+}
+
+.work:hover {
+    background-color: #db9617 !important;
+}
+
+.contact:hover {
+    background-color: #9b0202 !important;
+}
+
+#home {
+    border-left: 1px solid #b4b4b4;
+    border-right: 1px solid #b4b4b4;
+    border-bottom: 1px solid #b4b4b4;
+}
+
+#skills {
+    border-left: 1px solid #b4b4b4;
+    border-right: 1px solid #b4b4b4;
+    border-bottom: 1px solid #b4b4b4;
+}
+
+#work {
+    border-left: 1px solid #b4b4b4;
+    border-right: 1px solid #b4b4b4;
+    border-bottom: 1px solid #b4b4b4;
+}
+
+#contact {
+    border-left: 1px solid #b4b4b4;
+    border-right: 1px solid #b4b4b4;
+    border-bottom: 1px solid #b4b4b4;
+}
+
+@media screen and (max-width: 1200px) {
+    .stretch {
+        width: 25%;
+        padding: 5px 5px 5px 5px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    h5 {
+        font-size: .8rem;
+    }
+
+    .fas {
+        font-size: 1.5rem !important;
+    }
+}
